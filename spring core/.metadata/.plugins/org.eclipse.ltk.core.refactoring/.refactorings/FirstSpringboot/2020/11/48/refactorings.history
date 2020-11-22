@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;error.handler&apos; to &apos;springboot.starter.errorHandler&apos;&#x0D;&#x0A;- Original project: &apos;FirstSpringboot&apos;&#x0D;&#x0A;- Original element: &apos;FirstSpringboot/src/main/java/error.handler&apos;&#x0D;&#x0A;- Renamed element: &apos;FirstSpringboot/src/main/java/springboot.starter.errorHandler&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;error.handler&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;error.handler" name="springboot.starter.errorHandler" qualified="false" references="true" stamp="1606063206005" textual="false" version="1.0"/>
+</session>
