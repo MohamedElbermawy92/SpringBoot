@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import springboot.starter.controller.Todo;
-import springboot.starter.errorHandler.ConflictException;
 import springboot.starter.errorHandler.NotFounException;
 import springboot.starter.repsitory.TodoRepository;
 
@@ -34,12 +33,10 @@ public class TodoService {
 
 	
 	public Todo addTodo(Todo t){
-		if(todorepo.findByTitle(t.getTitle())== null){
-			todorepo.insert(t);
-			return t;
-		}
-		else
-			throw new ConflictException("this title already exist in database!!!");
+		//list.add(t);
+		
+		todorepo.insert(t);
+		return t;
 	}
 	
 	public void removeTodo(@PathVariable String id) {
