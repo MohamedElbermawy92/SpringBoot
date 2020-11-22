@@ -1,0 +1,11 @@
+package error.handler;
+
+import org.springframework.http.HttpStatus;
+
+public abstract class APIexception extends RuntimeException{
+
+	protected abstract HttpStatus getHttpStatus();
+		
+	
+	
+}

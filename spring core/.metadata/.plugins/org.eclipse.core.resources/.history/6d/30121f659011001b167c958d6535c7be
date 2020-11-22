@@ -1,0 +1,12 @@
+
+public class Test {
+
+	{
+		System.out.println("initial 2");
+	}
+	
+	public Test(){
+		System.out.println("initial constractor");
+	}
+	
+}

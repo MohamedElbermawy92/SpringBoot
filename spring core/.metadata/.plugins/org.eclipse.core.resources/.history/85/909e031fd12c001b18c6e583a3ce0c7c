@@ -1,0 +1,16 @@
+package error.handler;
+
+import org.springframework.http.HttpStatus;
+
+public abstract class APIexception extends RuntimeException{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	protected abstract HttpStatus getHttpStatus();
+		
+	
+	
+}

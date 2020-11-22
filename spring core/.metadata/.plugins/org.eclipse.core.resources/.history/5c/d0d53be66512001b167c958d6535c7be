@@ -1,0 +1,64 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+	static Scanner s = new Scanner(System.in);
+	static int b;
+	static int h;
+	
+	//static{
+		
+		// b = s.nextInt();
+		 //h = s.nextInt();
+		
+		//if(b<=0 || h<=0)
+		//	try {
+		//		throw new Exception("java.lang.Exception: Breadth and height must be positive");
+	//		} catch (Exception e) {
+	//			System.out.println(e.getMessage());
+	//		}
+	//}  
+	
+	
+	public static String findDay(int month, int day, int year) {
+
+		
+		Calendar cal = Calendar.getInstance();
+		cal.set(Calendar.DAY_OF_MONTH, day); //Set Day of the Month, 1..31
+		cal.set(Calendar.MONTH,month); //Set month, starts with JANUARY = 0
+		cal.set(Calendar.YEAR,year); //Set year
+		System.out.println(cal.get(Calendar.DAY_OF_WEEK));
+		
+		
+		String input = String.valueOf(month)+"-"+String.valueOf(day)+"-"+String.valueOf(year);
+		Date date = null;
+        try {
+            date = new SimpleDateFormat("mm-DD-YYYY").parse(input);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return new SimpleDateFormat("EEEE",Locale.ENGLISH).format(date);
+    }
+	
+	public static void main(String[] args) {
+	
+		System.out.println(findDay(20, 10, 2021));
+		//Test t = new Test();
+		//EOF();
+	}
+	
+	static void EOF(){
+		
+		int count = 0;
+		
+		while(s.hasNextLine())
+			System.out.println(++count+" "+s.nextLine());
+	}
+	
+	
+}

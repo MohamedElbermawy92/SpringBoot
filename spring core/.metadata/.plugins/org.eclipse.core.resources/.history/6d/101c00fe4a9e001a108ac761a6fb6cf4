@@ -1,0 +1,30 @@
+
+public class Test {
+
+	
+	public int soultion(String SMS, int k){
+		int result =0;
+		int len = 0;
+		int wordlen;
+		String [] arr = SMS.split(" ");
+		for (int i = 0; i<arr.length; i++) {
+			if(arr.length<2 && arr[i].length()<k)
+				return 0;
+			else {
+				wordlen = len + arr[i].length();
+				if(wordlen<k){
+				len += arr[i].length();
+				}else{
+					len =0;
+					result++;
+				}
+				--i;
+			}
+		}
+		
+		
+		return result;
+		
+	}
+	
+}

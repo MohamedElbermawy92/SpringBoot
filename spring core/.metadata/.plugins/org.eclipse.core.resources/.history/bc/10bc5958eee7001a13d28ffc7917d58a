@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class BlackAndWhiteProblem {
+
+	public static void main(String[] args) {
+
+	//	System.out.println("result = "+getPossible(5, 4));
+		get();
+	}
+	
+	static int getPossible(int n , int m){
+		
+		int x = m*n;
+		int result = x*x -(m*n);
+		int above, down ,left ,right ;
+		
+		for(int i = 1; i<=n ; i++){
+			
+			for(int j = 1 ; j<= m ; j++){
+				down = n - i;
+				above = i - 1 ;
+				right = m - j;
+				left =  j - 1;
+				System.out.println("down = "+down+" , above = "+above+ " , right = "+right+" , left = "+left);
+				
+				if((above == 1 && right > 1) ||(above == 1 && left > 1) || (above >=2  && right >= 2) ||(above >= 2 && left >= 2)){
+					result --;
+					System.out.println("result above = "+result);
+				}
+				
+				if((down == 1 && right > 1) ||(down == 1 && left > 1) || (down >=2  && right >= 2) ||(down >= 2 && left >= 2)){
+					result --;
+					System.out.println("result down = "+result);
+				}
+				if((right == 1 && above > 1) ||(right == 1 && down > 1) || (right >= 2  && above >= 2) ||(right >= 2 && down >= 2)){
+					result --;
+					System.out.println("result right = "+result);
+				}
+				if((left == 1 && above > 1) ||(left == 1 && down > 1) || (left >= 2  && above >= 2) ||(left >= 2 && down >= 2)){
+					result --;
+					System.out.println("result left = "+result);
+				}
+					
+			}
+		}
+		
+		return result;
+	}
+	
+	static void get(){
+        Scanner scan = new Scanner(System.in);
+
+        String s = "";
+		 int i = scan.nextInt();
+	     double d = scan.nextDouble();
+	     s = scan.nextLine();
+	     scan.close();
+
+
+	        // Write your code here.
+
+	        System.out.println("String: " + s);
+	        System.out.println("Double: " + d);
+	        System.out.println("Int: " + i);
+	}
+
+}
