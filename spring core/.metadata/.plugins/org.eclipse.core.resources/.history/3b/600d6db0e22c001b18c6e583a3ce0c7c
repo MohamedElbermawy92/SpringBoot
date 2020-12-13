@@ -1,5 +1,0 @@
-package springboot.starter.errorHandler;
-
-public class ConflictException {
-
-}

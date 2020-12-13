@@ -1,7 +1,0 @@
-package error.handler;
-
-public class ErrorDetails {
-
-	private String message;
-	
-}
