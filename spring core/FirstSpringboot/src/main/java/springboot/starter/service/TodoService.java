@@ -23,7 +23,7 @@ public class TodoService {
 		try{
 		return todorepo.findById(id).get();
 		}catch(NoSuchElementException ex){
-			throw new NotFounException(String.format("no record founf for id [%s] in database.",id));
+			throw new NotFounException(String.format("no record found for id [%s] in database.",id));
 		}
 	}
 

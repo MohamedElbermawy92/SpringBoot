@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-<fullyQualifiedTypeName name="SpringNotations.SpringAnotationa.Circle"/>
-<fullyQualifiedTypeName name="SpringNotations.SpringAnotationa.Point"/>
-<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
-<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
-<fullyQualifiedTypeName name="javax.jws.WebService"/>
 <fullyQualifiedTypeName name="javax.jws.WebMethod"/>
 <fullyQualifiedTypeName name="com.product.BusinessServicesImp"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="javax.websocket.server.PathParam"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="springboot.starter.service.TodoService"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
@@ -25,11 +14,8 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Document"/>
 <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
-<fullyQualifiedTypeName name="springboot.starter.repsitory.TodoRepository"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
-<fullyQualifiedTypeName name="springboot.starter.controller.Todo"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Test"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -60,4 +46,18 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringRunner"/>
+<fullyQualifiedTypeName name="springboot.starter.repsitory.TodoRepository"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.context.TestConfiguration"/>
+<fullyQualifiedTypeName name="springboot.starter.service.TodoService"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="springboot.starter.controller.Todo"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.mockito.BDDMockito"/>
+<fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
 </qualifiedTypeNameHistroy>

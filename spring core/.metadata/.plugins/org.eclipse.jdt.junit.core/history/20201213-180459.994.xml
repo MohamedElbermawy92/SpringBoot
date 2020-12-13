@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ControllerTest" project="FirstSpringboot" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.todoTest.ControllerTest" time="0.722">
+    <testcase name="testGetAllTodo" classname="com.test.todoTest.ControllerTest" time="0.722"/>
+  </testsuite>
+</testrun>
